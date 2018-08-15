@@ -1,4 +1,4 @@
-# PyImageSearch-CV-DL-CrashCourse
+# PyImageSearch CV/DL CrashCourse
 
 Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
@@ -31,3 +31,13 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 **2. Counting objects:**
 
 > *$ python opencv_tutorial_02.py --image tetris_blocks.png*
+
+## Day 3: Document scanner
+
+* Link: <https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/>
+
+**Commands used:**
+
+> *$ python scan.py --image images/page.jpg*
+
+> *$ python scan.py --image images/receipt.jpg*
