@@ -2,6 +2,7 @@
 # python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
 
 # import the necessary packages
+import os
 from imutils.video import VideoStream
 import numpy as np
 import argparse
@@ -19,9 +20,15 @@ ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
 
+# get args and concatenate with current directory
+# get current directory
+dirname, filename = os.path.split(os.path.abspath(__file__))
+prototxt = os.path.join(dirname, args["prototxt"])
+model = os.path.join(dirname, args["model"])
+
 # load our serialized model from disk
 print("[INFO] loading model...")
-net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+net = cv2.dnn.readNetFromCaffe(prototxt, model)
 
 # initialize the video stream and allow the cammera sensor to warmup
 print("[INFO] starting video stream...")

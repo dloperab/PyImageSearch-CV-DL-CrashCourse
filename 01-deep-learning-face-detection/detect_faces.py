@@ -2,6 +2,7 @@
 # python detect_faces.py --image rooster.jpg --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
 
 # import the necessary packages
+import os
 import numpy as np
 import argparse
 import cv2
@@ -18,15 +19,23 @@ ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
 
+# get args and concatenate with current directory
+# get current directory
+dirname, filename = os.path.split(os.path.abspath(__file__))
+prototxt = os.path.join(dirname, args["prototxt"])
+model = os.path.join(dirname, args["model"])
+image = os.path.join(dirname, args["image"])
+
 # load our serialized model from disk
 print("[INFO] loading model...")
-net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+net = cv2.dnn.readNetFromCaffe(prototxt, model)
 
 # load the input image and construct an input blob for the image
 # by resizing to a fixed 300x300 pixels and then normalizing it
-image = cv2.imread(args["image"])
+image = cv2.imread(image)
 (h, w) = image.shape[:2]
-blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 1.0,
+print(image.shape[:2])
+blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 1.0, 
 	(300, 300), (104.0, 177.0, 123.0))
 
 # pass the blob through the network and obtain the detections and
