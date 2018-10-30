@@ -24,13 +24,13 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 **Commands used:**
 
-**1. OpenCV tutorial:**
+* **OpenCV tutorial:**
 
 > *$ python opencv_tutorial_01.py*
 
-**2. Counting objects:**
+* **Counting objects:**
 
-> *$ python opencv_tutorial_02.py --image tetris_blocks.png*
+> *$ python opencv_tutorial_02.py --image images/tetris_blocks.png*
 
 ## Day 3: Document scanner
 
