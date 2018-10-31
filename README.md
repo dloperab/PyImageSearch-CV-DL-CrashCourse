@@ -6,7 +6,8 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 ## Day 1: Face detection with OpenCV and Deep Learning
 
-* Link: <https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/>
+* **Link:** <https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/>
+* **Folder:** 01-deep-learning-face-detection
 
 **Commands used:**
 
@@ -20,7 +21,8 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 ## Day 2: OpenCV Tutorial: A Guide to Learn OpenCV
 
-* Link: <https://www.pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/>
+* **Link:** <https://www.pyimagesearch.com/2018/07/19/opencv-tutorial-a-guide-to-learn-opencv/>
+* **Folder:** 02-opencv-tutorial
 
 **Commands used:**
 
@@ -34,10 +36,22 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 ## Day 3: Document scanner
 
-* Link: <https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/>
+* **Link:** <https://www.pyimagesearch.com/2014/09/01/build-kick-ass-mobile-document-scanner-just-5-minutes/>
+* **Folder:** 03-document-scanner
 
 **Commands used:**
 
-> *$ python scan.py --image images/page.jpg*    
+> *$ python scan.py --image images/page.jpg*
 
-> *$ python scan.py --image images/receipt.jpg*
+## Day 4: Bubble sheet multiple choice scanner and test grader using OMR
+
+* **Link:** <https://www.pyimagesearch.com/2016/10/03/bubble-sheet-multiple-choice-scanner-and-test-grader-using-omr-python-and-opencv/>
+* **Folder:** 04-omr-test-grader
+
+**Commands used:**
+
+> *$ python test_grader.py --image images/test_01.png*
+
+---
+
+**Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
