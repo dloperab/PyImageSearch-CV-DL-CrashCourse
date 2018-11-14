@@ -52,6 +52,34 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python test_grader.py --image images/test_01.png*
 
+## Day 5: Ball Tracking with OpenCV
+
+* **Link:** <https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/>
+* **Folder:** 05-ball-tracking
+
+**Commands used:**
+
+* **Using Video:**
+
+    > *$ python ball_tracking.py --video ball_tracking_example.mp4*
+
+* **Using Webcam:**
+
+    > *$ python ball_tracking.py* (**Note:** To see any results, you will need a green object with the same HSV color range was used in this demo)
+
+## Day 6: Measuring size of objects in an image with OpenCV
+
+* **Link:** <https://www.pyimagesearch.com/2016/03/28/measuring-size-of-objects-in-an-image-with-opencv/>
+* **Folder:** 06-size-of-objects
+
+**Commands used:**
+
+> *$ python object_size.py --image images/example_01.png --width 0.955*
+
+> *$ python object_size.py --image images/example_02.png --width 0.955*
+
+> *$ python object_size.py --image images/example_03.png --width 3.5*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
