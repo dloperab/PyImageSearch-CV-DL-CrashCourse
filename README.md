@@ -80,6 +80,19 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python object_size.py --image images/example_03.png --width 3.5*
 
+## Day 8: Facial landmarks with dlib, OpenCV, and Python
+
+* **Link:** <https://www.pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/>
+* **Folder:** 08-facial_landmarks
+
+**Commands used:**
+
+> *$ python facial_landmarks.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --image images/example_01.jpg*
+
+> *$ python facial_landmarks.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --image images/example_02.jpg*
+
+> *$ python facial_landmarks.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --image images/example_03.jpg*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
