@@ -93,6 +93,24 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python facial_landmarks.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --image images/example_03.jpg*
 
+## Day 9: Eye blink detection with OpenCV, Python, and dlib
+
+* **Link:** <https://www.pyimagesearch.com/2017/04/24/eye-blink-detection-opencv-python-dlib/>
+* **Folder:** 09-blink-detection
+
+**Commands used:**
+
+> *$ python detect_blinks.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --video videos/blink_detection_demo.mp4*
+
+## Day 10: Drowsiness detection with OpenCV
+
+* **Link:** <https://www.pyimagesearch.com/2017/05/08/drowsiness-detection-opencv/>
+* **Folder:** 10-detect_drowsiness
+
+**Commands used:**
+
+> *$ python detect_drowsiness.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --alarm sounds/alarm.wav*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
