@@ -104,3 +104,6 @@ venv.bak/
 .mypy_cache/
 .vscode/settings.json
 .vscode/settings.json
+
+# kaggle_dogs_vs_cats dataset
+/12-simple-neural-network/kaggle_dogs_vs_cats/

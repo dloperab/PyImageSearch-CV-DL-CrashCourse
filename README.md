@@ -111,6 +111,36 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python detect_drowsiness.py --shape-predictor model/shape_predictor_68_face_landmarks.dat --alarm sounds/alarm.wav*
 
+## Day 12: A simple neural network with Python and Keras
+
+* **Link:** <https://www.pyimagesearch.com/2016/09/26/a-simple-neural-network-with-python-and-keras/>
+* **Folder:** 12-simple-neural-network
+
+**Note:** Create a folder structure called **/kaggle_dogs_vs_cats/train**, download the training dataset [Kaggle-Dogs vs. Cats](https://www.kaggle.com/c/dogs-vs-cats/data) and put the images into **train** folder.
+
+**Command used - Training:**
+
+> *$ python simple_neural_network.py --dataset kaggle_dogs_vs_cats --model output/simple_neural_network.hdf5*
+
+**Command used - Test:**
+
+> *$ python test_network.py --model output/simple_neural_network.hdf5 --test-images test_images*
+
+## Day 13: Deep Learning with OpenCV
+
+* **Link:** <https://www.pyimagesearch.com/2017/08/21/deep-learning-with-opencv/>
+* **Folder:** 13-deep-learning-opencv
+
+**Commands used:**
+
+> *$ python deep_learning_with_opencv.py --image images/jemma.png --prototxt model/bvlc_googlenet.prototxt --model model/bvlc_googlenet.caffemodel --labels model/synset_words.txt*
+
+> *$ python deep_learning_with_opencv.py --image images/traffic_light.png --prototxt model/bvlc_googlenet.prototxt --model model/bvlc_googlenet.caffemodel --labels model/synset_words.txt*
+
+> *$ python deep_learning_with_opencv.py --image images/eagle.png --prototxt model/bvlc_googlenet.prototxt --model model/bvlc_googlenet.caffemodel --labels model/synset_words.txt*
+
+> *$ python deep_learning_with_opencv.py --image images/vending_machine.png --prototxt model/bvlc_googlenet.prototxt --model model/bvlc_googlenet.caffemodel --labels model/synset_words.txt*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
