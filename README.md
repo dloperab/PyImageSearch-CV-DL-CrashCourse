@@ -141,6 +141,38 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python deep_learning_with_opencv.py --image images/vending_machine.png --prototxt model/bvlc_googlenet.prototxt --model model/bvlc_googlenet.caffemodel --labels model/synset_words.txt*
 
+## Day 14: How to (quickly) build a deep learning image dataset
+
+* **Link:** <https://www.pyimagesearch.com/2018/04/09/how-to-quickly-build-a-deep-learning-image-dataset/>
+* **Folder:** 14-search_bing_api
+
+**Commands used:**
+
+> *$ python search_bing_api.py --query "pokemon_class_to_search" --output dataset/pokemon_class_to_search*
+
+## Day 15: Keras and Convolutional Neural Networks (CNNs)
+
+* **Link:** <https://www.pyimagesearch.com/2018/04/16/keras-and-convolutional-neural-networks-cnns/>
+* **Folder:** 15-cnn-keras
+
+**Command used - Training:**
+
+> *$ python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle*
+
+**Command used - Testing:**
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/charmander_counter.png*
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/bulbasaur_plush.png*
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/mewtwo_toy.png*
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/pikachu_toy.png*
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/squirtle_plush.png*
+
+> *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/charmander_hidden.png*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
