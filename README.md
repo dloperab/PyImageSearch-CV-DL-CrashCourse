@@ -173,6 +173,15 @@ Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
 
 > *$ python classify.py --model pokedex.model --labelbin lb.pickle --image examples/charmander_hidden.png*
 
+## Day 16: Real-time object detection with deep learning and OpenCV
+
+* **Link:** <https://www.pyimagesearch.com/2017/09/18/real-time-object-detection-with-deep-learning-and-opencv/>
+* **Folder:** 16-real-time-object-detection
+
+**Commands used:**
+
+> *$ python real_time_object_detection.py --prototxt model/MobileNetSSD_deploy.prototxt.txt --model model/MobileNetSSD_deploy.caffemodel*
+
 ---
 
 **Credits to Adrian Rosebrock on <http://www.pyimagesearch.com>**
