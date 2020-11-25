@@ -1,8 +1,10 @@
 # PyImageSearch CV/DL CrashCourse
 
-Repository for PyImageSearch Crash Course on Computer Vision and Deep Learning
+Repository for **FREE** Computer Vision, Deep Learning and OpenCV Crash Course
 
-* URL to course: <https://www.pyimagesearch.com/welcome-crash-course/>
+- **URL to course:** <https://www.pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/>
+
+# Course
 
 ## Day 1: Face detection with OpenCV and Deep Learning
 

@@ -105,8 +105,8 @@ venv.bak/
 .vscode/settings.json
 .vscode/settings.json
 
+# Datasets
 # kaggle_dogs_vs_cats dataset
 /12-simple-neural-network/kaggle_dogs_vs_cats/
-
 # pokemon dataset
 /15-cnn-keras/dataset/
