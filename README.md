@@ -1,8 +1,14 @@
 # PyImageSearch CV/DL CrashCourse
 
-Repository for **FREE** Computer Vision, Deep Learning and OpenCV Crash Course
+Repository for **FREE** Computer Vision, Deep Learning and OpenCV Crash Course.
 
-- **URL to course:** <https://www.pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/>
+- **Course URL:** <https://www.pyimagesearch.com/free-opencv-computer-vision-deep-learning-crash-course/>
+
+# Environment Configuration
+
+The development environment configuration was based on the following guide [How to install TensorFlow 2.0 on Ubuntu](https://www.pyimagesearch.com/2019/12/09/how-to-install-tensorflow-2-0-on-ubuntu/) from PyImageSearch blog.
+
+However, you can check the environment.yml or requirements.txt.
 
 # Course
 
@@ -13,11 +19,13 @@ Repository for **FREE** Computer Vision, Deep Learning and OpenCV Crash Course
 
 **Commands used:**
 
-* **Object detection with Images:**
+* **Face detection with Images:**
 
     > *$ python detect_faces.py --image images/rooster.jpg --prototxt model/deploy.prototxt.txt --model model/res10_300x300_ssd_iter_140000.caffemodel*
 
-* **Object detection with Webcam:**
+    > *$ python detect_faces.py --image images/iron_chic.jpg --prototxt model/deploy.prototxt.txt --model model/res10_300x300_ssd_iter_140000.caffemodel*
+
+* **Face detection with Webcam:**
 
     > *$ python detect_faces_video.py --prototxt model/deploy.prototxt.txt --model model/res10_300x300_ssd_iter_140000.caffemodel*
 
