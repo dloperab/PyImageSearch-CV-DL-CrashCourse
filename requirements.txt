@@ -95,7 +95,7 @@ threadpoolctl==2.1.0
 tifffile==2020.11.18
 tornado==6.0.4
 traitlets @ file:///tmp/build/80754af9/traitlets_1602787416690/work
-urllib3==1.26.2
+urllib3==1.26.3
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
 Werkzeug==1.0.1
