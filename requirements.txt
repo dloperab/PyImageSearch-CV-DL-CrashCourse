@@ -58,7 +58,7 @@ pandocfilters @ file:///tmp/build/80754af9/pandocfilters_1605120460739/work
 parso==0.7.0
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare==0.7.5
-Pillow==8.0.1
+Pillow==8.2.0
 progressbar2==3.53.1
 prometheus-client==0.8.0
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
