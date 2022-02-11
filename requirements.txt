@@ -62,7 +62,7 @@ Pillow==8.0.1
 progressbar2==3.53.1
 prometheus-client==0.8.0
 prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1602688806899/work
-protobuf==3.14.0
+protobuf==3.15.0
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1605560620615/work/dist/ptyprocess-0.6.0-py2.py3-none-any.whl
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
