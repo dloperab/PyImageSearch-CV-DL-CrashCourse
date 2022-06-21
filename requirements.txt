@@ -48,7 +48,7 @@ nbformat @ file:///tmp/build/80754af9/nbformat_1602783287752/work
 nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1606153767164/work
 networkx==2.5
 notebook @ file:///tmp/build/80754af9/notebook_1601501575118/work
-numpy==1.18.5
+numpy==1.22.0
 oauthlib==3.1.0
 opencv-contrib-python==4.4.0.46
 opt-einsum==3.3.0
