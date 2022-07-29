@@ -39,7 +39,7 @@ kiwisolver==1.3.1
 Markdown==3.3.3
 MarkupSafe==1.1.1
 matplotlib==3.3.3
-mistune==0.8.4
+mistune==2.0.3
 nb-conda==2.2.1
 nb-conda-kernels @ file:///tmp/build/80754af9/nb_conda_kernels_1600445338328/work
 nbclient @ file:///tmp/build/80754af9/nbclient_1602783176460/work
