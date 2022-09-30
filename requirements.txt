@@ -29,7 +29,7 @@ ipython @ file:///tmp/build/80754af9/ipython_1604101197014/work
 ipython-genutils==0.2.0
 jedi @ file:///tmp/build/80754af9/jedi_1598371611696/work
 Jinja2==2.11.2
-joblib==0.17.0
+joblib==1.2.0
 jsonschema @ file:///tmp/build/80754af9/jsonschema_1602607155483/work
 jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1601311786391/work
 jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1606148996965/work
