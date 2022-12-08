@@ -7,7 +7,7 @@ backcall==0.2.0
 beautifulsoup4==4.9.3
 bleach @ file:///tmp/build/80754af9/bleach_1600439572647/work
 cachetools==4.1.1
-certifi==2020.11.8
+certifi==2022.12.7
 cffi @ file:///tmp/build/80754af9/cffi_1605538068321/work
 chardet==3.0.4
 cycler==0.10.0
